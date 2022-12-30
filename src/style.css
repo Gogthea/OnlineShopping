@@ -1,0 +1,39 @@
+/* .pageContent{
+    display: flex;
+    flex: 0;
+    overflow-y: auto;
+    margin-top: 2px;
+    
+  } */
+  /* .appMenu{
+    border:none;
+  } */
+  .productsContainer{
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .Sliders{
+    margin-top: 5px;
+    height: 620px;
+    background-color: pink;
+  }
+
+  .sliderImage{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+  }
+
+  .headers{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
